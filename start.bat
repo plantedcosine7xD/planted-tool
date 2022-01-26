@@ -50,6 +50,7 @@ echo        [5] for discord server look up
 echo        [6] for ddos tool               
 echo        [7] for server cloner                                       
 echo        [8] for server nuker
+echo        [9] for putty
 echo       ______________________________________________________________
 echo.
 set /p input=which number?
@@ -61,4 +62,5 @@ if %input% == 5 start Server-Lookup-main\ServerLookup.py
 if %input% == 6 start Memcrashed-DDoS-Exploit-master\install+start.bat
 if %input% == 7 start clonerserver\start
 if %input% == 8 start nuker\nuker.py
+if %input% == 9 start putty\PuTTY.exe
 goto gold
