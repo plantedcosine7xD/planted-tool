@@ -62,5 +62,5 @@ if %input% == 5 start Server-Lookup-main\ServerLookup.py
 if %input% == 6 start Memcrashed-DDoS-Exploit-master\install+start.bat
 if %input% == 7 start clonerserver\start
 if %input% == 8 start nuker\nuker.py
-if %input% == 9 start putty\PuTTY.exe
+if %input% == 9 start putty\PuTTY
 goto gold
