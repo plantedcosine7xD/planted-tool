@@ -15,7 +15,7 @@ set /p user=username?
 echo.
 set /p pass=password?
 if %user% == planted if %pass% == planted goto main
-echo incorrect password 
+echo incorrect password join here and question
 timeout 3 >nul
 cls
 goto retry
